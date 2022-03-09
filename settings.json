@@ -1,0 +1,10 @@
+{
+  "window": {
+    "width": 1000,
+    "height": 1000
+  },
+  "ray casts": 1000,
+  "fps": 60,
+  "save as image": false,
+  "show raycasts": false
+}
