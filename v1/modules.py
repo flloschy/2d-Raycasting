@@ -70,7 +70,7 @@ class RayCasting:
 
 class Visual:
     def __init__(self):
-        settings = json.load(open("./settings.json"))
+        settings = json.load(open("./v1/settings.json"))
 
         self.WIDTH, self.HEIGHT = settings["window"]["width"], settings["window"]["height"]
         self.CASTS = settings["ray casts"]
